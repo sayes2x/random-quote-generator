@@ -1,0 +1,57 @@
+body {
+  background-color: blue;
+  color: blue;
+  font-family: 'Montserrat', sans-serif;
+}
+.main {
+  background-color: white;
+  padding: 25px;
+  margin: auto;
+  margin-top: 150px;
+  width: 550px;
+  border-radius: 5px;
+}
+.quote {
+  display: inline;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.author {
+  text-align: right;
+}
+.flex1 {
+  display: flex;
+  font-size: 28px;
+}
+.flex2 {
+  display: flex;
+}
+.fa-quote-left {
+  align-self: flex-start;
+}
+.fa-quote-right {
+  align-self: flex-end;
+}
+.fa-twitter-square {
+  font-size: 42px;
+  margin-right: auto;
+  cursor: pointer;
+}
+#newQuoteButton {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 32px;
+  color: white;
+  background-color: blue;
+  cursor: pointer;
+}
+footer {
+  color: white;
+  text-align: center;
+  margin-top: 12px;
+  font-size: 12px;
+}
+#link {
+  text-decoration: none;
+  color: white;
+}
